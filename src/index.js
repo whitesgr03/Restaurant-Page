@@ -2,6 +2,7 @@
 
 import {createHomePage as home } from './js/home'
 import {createMenuPage as menu }  from './js/menu'
+import {createContactPage as contact } from './js/contact'
 import './css/style.css';
 
 const container = document.querySelector('.container')
@@ -18,6 +19,7 @@ function switchPage(e) {
     const handleRender = {
         home,
         menu,
+        contact
     }
 
     const template = handleRender[page]()
