@@ -92,6 +92,66 @@ main {
     width: 60%;
 }
 
+
+.wrap {
+    width: 80%;
+    border-radius: 20px;
+}
+
+.wrap h2 {
+    margin: 40px 0;
+}
+
+.item {
+    border: 5px solid rgb(222, 192, 118);
+    padding: 20px;
+    border-radius: 80px 30px 80px 30px;
+    background-color: rgb(14, 32, 59);
+    color: white;
+}
+
+.item:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.info {
+    padding: 0 30px;
+}
+
+.info p {
+    min-height: 100px;
+}
+
+.info .image {
+    flex: 0 1 auto;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.info img {
+    height: auto;
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+    border: 2px solid var(--main-background-color);
+}
+
+.info ul {
+    list-style: none;
+}
+
+.info li {
+    margin: 10px 0;
+}
+
 .animal {
     display: flex;
     width: 100%;
